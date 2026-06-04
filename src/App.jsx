@@ -1,14 +1,16 @@
-import Hello from './components/Hello';
+import Hello from "./components/Hello";
 
 function App() {
-  const arr=[1,2,3];
+  const obj = {
+    name: "Sam",
+    msg: "Sup?",
+    emoji: "😊",
+  };
   return (
     <div className="App">
-      <Hello name="Sam" msg="Sup?" emoji="😊" arr={arr}/>
-     
-      
+      <Hello person={obj} />
     </div>
-  )
+  );
 }
 
 export default App;
