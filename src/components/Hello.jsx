@@ -1,8 +1,8 @@
 
-function Hello({name, msg}) {
+function Hello({name, msg, emoji, arr}) {
   return (
     <>
-      <h1>Hello {name}, {msg}</h1>
+      <h1>Hello {name}, {msg} {emoji} {arr}</h1>
     </>
   );
 }
