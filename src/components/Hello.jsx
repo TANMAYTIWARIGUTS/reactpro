@@ -1,13 +1,9 @@
-const name = "Johny";
-
-function displayMsg() {
-  return "WOW";
-}
 
 function Hello(props) {
+    const {name, msg}=props;
   return (
     <>
-      <h1>Hello {props.name}, {props.msg}</h1> <h1>Okay</h1>
+      <h1>Hello {name}, {msg}</h1>
     </>
   );
 }
