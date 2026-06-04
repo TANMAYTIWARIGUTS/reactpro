@@ -7,7 +7,7 @@ function displayMsg() {
 function Hello(props) {
   return (
     <>
-      <h1>Hello {props.name} from compo</h1> <h1>Okay</h1>
+      <h1>Hello {props.name}, {props.msg}</h1> <h1>Okay</h1>
     </>
   );
 }

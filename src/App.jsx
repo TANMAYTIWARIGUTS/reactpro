@@ -4,7 +4,7 @@ function App() {
   
   return (
     <div className="App">
-      <Hello name="Max"/>
+      <Hello name="Max" msg="Sup?"/>
       
     </div>
   )
