@@ -1,7 +1,11 @@
 const name="Johny";
 
+function displayMsg(){
+    return "WOW";
+}
+
 function Hello() {
-  return <h1>Hello {10+20} from compo</h1>;
+  return <h1>Hello {displayMsg()} from compo</h1>;
 }
 
 export default Hello;
