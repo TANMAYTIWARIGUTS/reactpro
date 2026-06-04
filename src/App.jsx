@@ -1,14 +1,9 @@
-import Hello from "./components/Hello";
+import Fruits from "./components/Fruits";
 
 function App() {
-  const obj = {
-    name: "Sam",
-    msg: "Sup?",
-    emoji: "😊",
-  };
   return (
     <div className="App">
-      <Hello person={obj} />
+      <Fruits/>
     </div>
   );
 }
