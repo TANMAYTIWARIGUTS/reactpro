@@ -1,8 +1,7 @@
-import Hello from './components/Hello' 
+import Hello from './components/Hello';
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  
   return (
     <div className="App">
       <Hello/>
@@ -10,4 +9,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
