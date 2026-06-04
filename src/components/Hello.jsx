@@ -4,10 +4,10 @@ function displayMsg() {
   return "WOW";
 }
 
-function Hello() {
+function Hello(props) {
   return (
     <>
-      <h1>Hello {displayMsg()} from compo</h1> <h1>Okay</h1>
+      <h1>Hello {props.name} from compo</h1> <h1>Okay</h1>
     </>
   );
 }

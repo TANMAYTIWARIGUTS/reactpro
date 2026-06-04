@@ -4,10 +4,8 @@ function App() {
   
   return (
     <div className="App">
-      <Hello/>
-      <Hello/>
-      <Hello/>
-      <Hello/>
+      <Hello name="Max"/>
+      
     </div>
   )
 }
